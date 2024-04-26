@@ -1,0 +1,50 @@
+.section3{
+    display: flex;
+    align-items: center;
+}
+
+.section3__container{
+    padding: 30px 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section3__container h1{
+    color: #0000B0;
+    width: 131px;
+    height: 64px;
+    font-weight: 500;
+}
+
+.section3__container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.section3__text12{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%; 
+    gap: 30px;
+}
+
+.section3__container h3{
+    font-size: 22px;
+    font-weight: 400;
+    width: 352px;
+}
+
+.section3__text12 ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px; 
+    color: #000;
+}
+
+.section3__text12 ul li span{
+    color: black;
+    font-weight: 700;
+}

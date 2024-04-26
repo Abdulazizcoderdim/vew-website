@@ -1,0 +1,38 @@
+.section6{
+    display: flex;
+    align-items: center;
+}
+
+.section6__container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 3%;
+    width: 100%;
+}
+
+.section6__photo{
+    padding: 0 1%;
+}
+
+
+.section6__container h1{
+    color: #E94B67;
+}
+
+@media (max-width: 550px) {
+    .section6{
+        margin-top: 300px;
+    }
+    .section6__container{
+        margin-top: 150px;
+    }
+    .section6__photo{
+        width: 425px;
+        height: 546px;
+    }
+    .section6__photo img{
+        width: 450px;
+        height: 546px;
+    }
+}

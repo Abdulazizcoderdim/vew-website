@@ -1,0 +1,46 @@
+.animation{
+    display: flex;
+    align-items: center;
+    background-color: #00B6BA;
+    color: #fff;
+    padding: 10px 0 20px;
+    overflow-x: auto;
+}
+
+.anim{
+    display: flex;
+    width: 358px;
+    height: 39px;
+}
+
+.anim h1{
+    display: flex;
+}
+
+@media (max-width: 550px) {
+    .animation{
+        overflow: auto;
+        display: flex;
+        align-items: center;
+        padding: 5px 0;
+    }
+    .anim:nth-child(1){
+        display: none;
+    }
+    .anim:nth-child(2){
+        display: none;
+    }
+    .anim{
+        width: 250px;
+    }
+    .anim h1{
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .anim img{
+        width: 41px;
+        height: 41px;
+    }
+    
+}

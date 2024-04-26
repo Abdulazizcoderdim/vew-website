@@ -1,0 +1,145 @@
+.section{
+    display: flex;
+    align-items: center;
+}
+
+.section__container{
+    padding: 20px 3%;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.section__imgs1{
+  display: flex;
+  height: 100%; 
+  gap: 12px; 
+}
+
+.section__img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100%;
+    background-color: #F7F7F7;
+}
+
+.section__img2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
+}
+
+.section__img2 img{
+    flex: 1;
+}
+
+.section__img22{
+    margin-right: 60px;
+}
+
+.section__imgs2{
+    display: flex;
+    background-color: #00B6BA;
+    gap: 30px;
+    width: 760px;
+    justify-content: space-between;
+    padding: 40px;
+    height: 100%;
+    color: #fff;
+}
+
+
+
+.section__btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.section__btns h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.section__btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.section__btn button{
+    position: relative;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 13px 50px;
+    background-color: #00B6BA;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1;
+    transition: all .40s ease;
+}
+
+.section__btn button::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #7cffff;
+    z-index: -1;
+    transition: all .40s ease;
+}
+
+.section__btn button:hover::before{
+    width: 100%;
+    transition: all .40s ease;
+    color: black;
+}
+
+@media (max-width: 550px) {
+    .section__container{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+    }
+    .section__imgs1{
+        display: none;
+    }
+    .section__imgs2{
+        width: 450px;
+        height: 250px;
+        display: flex;
+        gap: 5px;
+    }   
+    .section__img22{
+        width: 183px;
+        height: 168px;
+    }  
+    .section__img22 img{
+        width: 183px;
+        height: 168px;
+    }
+    .section__btns h1{
+        width: 165px;
+        height: 44px;
+        font-size: 30px; 
+    }
+    .section__btn button{
+        width: 93px;
+        height: 35px;
+        padding: 5px;
+    }
+}

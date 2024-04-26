@@ -1,0 +1,16 @@
+.question{
+    display: flex;
+    align-items: center;
+}
+
+.question__container{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 80px 5% 100px;
+}
+
+.question__container a{
+    font-size: 40px;
+    color: rgb(139, 139, 139);
+}

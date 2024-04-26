@@ -1,0 +1,143 @@
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    padding: 20px 3%;
+    gap: 20px;
+}
+
+.nav__katalog{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: all .30s ease;
+}
+
+.nav__katalog:hover{
+    transition: all .30s ease;
+    background-color: red;
+}
+
+.nav__catalog-icon{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__catalog-text{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.nav__second-icon{
+    border: 2px solid rgb(58, 58, 58);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 8px 7px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    transition: all .30s ease;
+}
+
+.nav__second-icon:hover{
+    background-color: #eaeaea;
+    transition: all .30s ease;
+}
+
+.nav__input{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 1px;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.nav__input input{
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    width: 1070px;
+    padding: 5px 10px;
+    margin-left: 3px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-size: 20px;
+    color: black;
+}
+
+.nav__search-logo{
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+.nav__container a{
+    font-size: 30px;
+}
+
+.nav__new{
+    color: crimson;
+}
+
+.nav__hits{
+    color: #00B6BA;
+}
+
+.nav__num1{
+    color: crimson;
+}
+.nav__num2{
+    color: #00B6BA;
+}
+
+@media (max-width: 550px) {
+    .nav__container{
+        display: flex;
+        max-width: 550px;
+        gap: 20px;
+    }
+    .nav__catalog-text{
+        display: none;
+    }
+    .nav__second-icon{
+        display: none;
+    }
+    .nav__input{
+        width: 370px;
+        font-weight: 400;
+    }
+    .nav__input input{
+        width: 350px;
+        font-weight: 400;
+    }
+    .nav__new{
+        display: none;
+    }
+    .nav__num1{
+        display: none;
+    }
+    .nav__hits{
+        display: none;
+    }
+    .nav__num2{
+        display: none;
+    }
+}

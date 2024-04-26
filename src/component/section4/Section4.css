@@ -1,0 +1,153 @@
+.section4{
+    display: flex;
+    align-items: center;
+}
+
+.section4__container{
+    padding: 20px 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section4__container h1{
+    color: #0000B0;
+    width: 507px;
+    height: 64px;
+}
+
+.section4__container h1 span{
+    color: crimson;
+}
+
+.section4__text{
+    padding: 0 5%;
+    display: flex;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+.section4__text1{
+    display: flex;
+    flex-direction: column;
+}
+
+.section4__text1 h3{
+    color: #0000B0;
+    width: 106px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.section4__text1 p{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.section4__text1 span{
+    font-size: 30px;
+    color: #0000B0;
+}
+
+.section4__two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 209px;
+}
+
+.section4__two-1{
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+    gap: 10px;
+}
+
+.section4__two-1 h3{
+    color:#BD43F6;
+    width: 106px;
+    font-size: 25px;
+    font-weight: 500
+}
+
+.section4__two-1 p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.section4__two-1 p span{
+    font-size: 30px;
+    color:#BD43F6;
+}
+
+.section4__two-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section4__two-2 h3{
+    color:#52B5A1;
+    width: 106px;
+    font-size: 25px;
+    font-weight: 500
+}
+
+.section4__two-2 p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.section4__two-2 p span{
+    font-size: 30px;
+    color:#52B5A1;
+}
+
+@media (max-width: 550px){
+    .section4__container{
+        width: 550px;
+        flex-wrap: wrap;
+    }
+    .section4__container h1{
+        width: 260px;
+        height: 67px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .section4__text{
+        display: flex;
+        gap: 60px;
+        width: 450px;
+    }
+    .section4__text1{
+        width: 133px;
+        height: 455px;
+    }
+    .section4__two{
+        width: 169px;
+        gap: 10px;
+        height: 430px;
+    }
+    .section4__text img{
+        width: 232px;
+        height: 220px;
+    }
+    .section4__text1 img{
+        width: 60px;
+        height: 60px;
+    }
+    .section4__two-1 img{
+        width: 60px;
+        height: 60px;
+    }
+    .section4__two-2 img{
+        width: 60px;
+        height: 60px;
+    }
+    .s4-ph{
+        margin-top: 50px;
+    }
+}

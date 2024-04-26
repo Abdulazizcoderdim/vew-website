@@ -1,0 +1,33 @@
+.route{
+    border-bottom: 1px solid rgb(174, 174, 174);
+    display: flex;
+    align-items: center;
+}
+
+.route__end{
+    color: crimson;
+    font-weight: 550;
+}
+
+.route__container{
+    padding: 20px 3% 23px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: rgb(174, 174, 174);
+
+}
+
+.route__a{
+    color: rgb(174, 174, 174);
+}
+
+.route__container a{
+    text-decoration: none;
+}
+
+@media (max-width: 550px) {
+    .route{
+        display: none;
+    }
+}

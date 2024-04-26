@@ -1,0 +1,179 @@
+.section5{
+    display: flex;
+    align-items: center;
+}
+
+.section5__container{
+    padding: 20px 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.section5__text{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.section5-1-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section5-1-1 h3{
+    color: #52B5A1;
+}
+
+.section5-1-1 p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.section5-1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section5-1-2 h3{
+    color:#BD43F6;
+}
+
+.section5-1-2 p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.section5-1-2 span{
+    font-size: 30px;
+    color:#BD43F6;
+}
+
+.section5__2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section5__2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section5__2-1 h3{
+    color: #F7CE46;
+}
+
+.section5__2-1 p span{
+    font-size: 30px;
+    color: #F7CE46;
+}
+
+.section5__2-1 p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.section5-1-1 span{
+    color: #52B5A1;
+    font-size: 30px;
+}
+
+.section5__1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section5__2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section5__2-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section5__2-2 h3{
+    color: #0000B0;
+}
+
+.section5__2-2 p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.section5__2-2 p span{
+    font-size: 30px;
+    color: #0000B0;
+}
+
+.section5__3-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section5__3-1 h3{
+    color: #E94B67;
+}
+
+.section5__3-1 p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.section5__3-1 p span{
+    font-size: 30px;
+    color: #E94B67;
+}
+
+.section5__container h1{
+    color: #0000B0;
+}
+
+@media (max-width: 550px) {
+    .section5__container{
+        display: flex;
+        width: 367px;
+        height: 715px;
+    }
+    .section5__text{
+        display: flex;
+        width: 450px;
+        flex-wrap: wrap;
+    }
+    .section5-1-1 img{
+        width: 40px;
+        height: 40px;
+    }
+    .section5-1-2 img{
+        width: 40px;
+        height: 40px;
+    }
+    .section5__2-1 img{
+        width: 40px;
+        height: 40px;
+    }
+    .section5__2-2 img{
+        width: 40px;
+        height: 40px;
+    }
+    .section5__3-1 img{
+        width: 40px;
+        height: 40px;
+    }
+} 
